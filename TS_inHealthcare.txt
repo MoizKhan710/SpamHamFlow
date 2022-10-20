@@ -1,0 +1,22 @@
+This Topic is About the Challenges possesed by medical and healthcare domain and how we can solve them with the help
+machine learning. Machine learning can transform this Domain in the following manner.It can Help us Deliver precise 
+amount of medication at patients level. Also can help us understand the ups and downs of health and diseases.Reduce
+cost, transform the health of population and lead to many new discoveries.
+
+Now Talking about time series analysis in healthcare domain. It can be used to do the forecasting for survival of a
+patient.The possible effect of a treatment in future could be known using TS forecasting.Clustering of patients 
+based on their health condition and diseases.
+
+The diseases have been evolving over time and the data is sparse and irregular.The problem faced also are that the 
+origin of the disease and the time at which the disease took over the body is not known.
+
+The Aim is to build a disease progression model using time series data, weather it is from electronic record data 
+or disease regestries or other longitudional data.Train the model on the model parameters from available data and do
+dynamic forecastingfor patient and understand hoew disease progress.
+
+Current disease progression model uses Marcov Model. Disadvantages of such models is that it assumes we can observe 
+every stage of the disease which is not the case and also it only works for 1 disease at a time. Another disadvantage 
+is that it is modelling Avg patient which is not personalized to the unique character of the patient.
+
+One particular advancement is to model the diseases using Hidden marcov model. in HMM all the different states that 
+a patient can pass through is observable.
